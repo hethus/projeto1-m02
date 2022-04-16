@@ -38,7 +38,11 @@ header h1#pageTitle {
 }
 
 main {
-  background-color: rgb(239, 239, 239);
+    background-image: url("https://realinstitutodeoncologia.com.br/wp-content/uploads/2017/07/white-background-image-3.jpg");
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+
 }
 
 main div.first {
@@ -54,7 +58,7 @@ main div.first a {
 
 main div.first a:hover {
   color: rgb(0, 0, 0);
-  
+
 }
 
 main div#second {
