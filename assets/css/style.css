@@ -22,13 +22,13 @@ header h1#pageTitle {
     font-weight: bold;
 }
 
-@media only screen and (max-width: 824px) {
+@media only screen and (max-width: 843px) {
     header {
         background-color: rgb(56, 72, 255);
     }
 }
 
-@media only screen and (min-width: 825px) {
+@media only screen and (min-width: 843px) {
     header {
         background-image: url("https://gosu.ai/blog/content/images/2020/08/long-read-1.png");
         background-size: cover;
@@ -45,6 +45,16 @@ main {
 main div.first {
     padding: 1% 0% 2% 0%;
     text-align: center;
+}
+
+main div.first a {
+    color: rgb(122, 41, 209);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main div.first a:hover {
+    color: rgb(0, 0, 0);
 }
 
 main div#second {
