@@ -5,27 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/CSS/style.css">
+    <link rel="icon" href="./assets/img/icon.ico">
     <title>LoL - Qual a sua Main Role?</title>
     
 </head>
 <body>
     
     <header>
-        <h1 id="tituloDaPagina">LoL - Qual a sua Main Role?</h1>
-        <img src="assets/img/logo.png" alt="Imagem sobre as funções no LoL" />
+
+        <h1 id="pageTitle">LoL - Qual a sua Main Role?</h1>
     </header>
 
     <main>
-        <h2>aqui vai o botao e texto sobre as roles</h2>
+        <div class="first">
+            <h2 id="text">League of Legends é um jogo em equipes com mais de 140 Campeões com os quais você pode fazer jogadas insanas. Nele existem Roles, onde cada uma tem um objetivo diferente! Nesse gerador te daremos uma opção de Role para começar a jogar!</h2>
+        </div>
+        
+        <div class="first">
+            <button onclick="handleChange()">Teste a sorte!</button>
+        </div>
+
+        <div id="second">
+            <img class="role" src="./assets/img/comeco.png" alt="imagem da role" width="350px">
+
+            <div><h3 class="role">Clique no botão acima para começar!</h3></div>
+            
+
+            <iframe class="role" width="560" height="315" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
     </main>
 
     <footer>
         <p>
             <a href="https://github.com/hethus" target="_blank"> https://github.com/hethus </a> - Para mais projetos e coisas legais!
-          </p>
+        </p>
+        <p id="down">
+            Projeto sem fins lucrativos, focado no aprendizado!    
+        </p>
     </footer>
 
 
 
 </body>
+<script src="./assets/js/scripts.js"></script>
 </html>
