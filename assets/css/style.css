@@ -44,7 +44,6 @@ main {
 
 main div.first {
     padding: 1% 0% 2% 0%;
-    /*fazer texto ir para baixo se nao tiver espaço na linha*/
     text-align: center;
 }
 
