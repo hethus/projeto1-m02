@@ -18,7 +18,6 @@ header h1#pageTitle {
   font-size: 65px;
   padding: 18% 5% 0% 0%;
   text-align: center;
-  /* testo em negrito */
   font-weight: bold;
 }
 
@@ -71,7 +70,7 @@ main div#second {
 }
 
 main div#second div {
-  width: 500px;
+  width: 600px;
 }
 
 div button {
@@ -89,7 +88,8 @@ div button:hover {
   background-color: rgb(217, 161, 161);
   color: rgb(0, 0, 0);
   transform: scale(1.4);
-  transition: all 0.5s;
+  transition: all 0.65s;
+  box-shadow: 5px 4px 5px rgb(0, 0, 0)
 }
 
 footer p {
