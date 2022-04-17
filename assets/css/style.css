@@ -37,11 +37,10 @@ header h1#pageTitle {
 }
 
 main {
-    background-image: url("https://realinstitutodeoncologia.com.br/wp-content/uploads/2017/07/white-background-image-3.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
+  background-image: url("https://realinstitutodeoncologia.com.br/wp-content/uploads/2017/07/white-background-image-3.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 main div.first {
@@ -57,7 +56,6 @@ main div.first a {
 
 main div.first a:hover {
   color: rgb(0, 0, 0);
-
 }
 
 main div.first h2#lol {
@@ -102,7 +100,7 @@ div button:hover {
   color: rgb(0, 0, 0);
   transform: scale(1.4);
   transition: all 0.65s;
-  box-shadow: 5px 4px 5px rgb(0, 0, 0)
+  box-shadow: 5px 4px 5px rgb(0, 0, 0);
 }
 
 footer p {
