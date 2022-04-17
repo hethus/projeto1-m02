@@ -3,7 +3,7 @@ const botao = document.querySelector("#alternative");
 
 function handleChange() {
   let numero = Math.floor(Math.random() * 5) + 1;
-    botao.innerText = "Mudar a Role!";
+  botao.innerText = "Mudar a Role!";
 
   if (numero === 1) {
     alterar[0].setAttribute("src", "./assets/img/top.png");

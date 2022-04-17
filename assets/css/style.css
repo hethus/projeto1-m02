@@ -60,6 +60,19 @@ main div.first a:hover {
 
 }
 
+main div.first h2#lol {
+  color: rgb(0, 0, 0);
+  font-size: 35px;
+  font-weight: bold;
+  padding: 0% 0% 2% 0%;
+}
+
+main div.first h2#generator {
+  color: rgb(28, 149, 162);
+  font-size: 30px;
+  padding: 5% 0% 2% 0%;
+}
+
 main div#second {
   display: flex;
   align-items: center;
